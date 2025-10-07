@@ -1,0 +1,54 @@
+/* Linking Google font */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+* {
+  font-family: 'DynaPuff', system-ui;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.buttons {
+  position: fixed;
+  right: 0;
+}
+.buttons :first-child {
+  background-color: #cdb4db;
+}
+.buttons :nth-child(2) {
+  background-color: #ffc8dd;
+}
+.buttons :last-child {
+  background-color: #ffafcc;
+}
+div {
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+  background-color: #fcf9ea;
+  border-radius: 1rem;
+}
+.tag {
+  width: fit-content;
+  height: fit-content;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  padding: 1rem;
+  background-color: #badfdb;
+  font-size: 2rem;
+}
+.special {
+  background-color: #ffa4a4;
+}
